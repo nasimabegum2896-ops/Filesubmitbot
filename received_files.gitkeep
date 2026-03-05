@@ -1,0 +1,2 @@
+# Create this empty file to ensure the directory is tracked by git
+touch received_files/.gitkeep

@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# Logs
+error.log
+
+# User data
+users.json
+
+# Uploaded files
+received_files/*
+!received_files/.gitkeep
+
+# Environment files
+.env
+*.local

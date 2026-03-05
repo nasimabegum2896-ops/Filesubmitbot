@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: docker
+    repo: https://github.com/yourusername/your-repo-name
+    branch: main
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: APP_ENV
+        value: production
+    healthCheckPath: /
+    autoDeploy: true
